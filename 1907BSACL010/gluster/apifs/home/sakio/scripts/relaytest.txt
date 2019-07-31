@@ -1,0 +1,9 @@
+helo smtp1.renapo.gob.mx
+mail from: sis_renapo@kionetworks.co
+RCPT TO: scastro@kionetworks.com
+DATA
+subject: PRUEBA KIOTRON
+Esta es una prueba KIOTRON
+
+.
+QUIT

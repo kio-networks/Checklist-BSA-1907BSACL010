@@ -1,0 +1,68 @@
+#Titulo {
+width:100%;
+text-align:center;
+font-family:"Comic Sans MS";
+font-size: 35px;
+text-shadow: 3px 2px #A4A4A4;
+}
+#Encabezado {
+background: #FFBF00;
+text-shadow: 3px 2px #FF8000;
+}
+#imgizquierda{
+	margin: 10px 90px;
+	text-align:left;
+}
+#imgderecha{
+		margin: 20px 60px;
+		text-align:right;
+}
+#estados{
+		text-align:center;
+}
+div {
+  text-align:center;
+  font-family:"Comic Sans MS";
+  font-size: 15px;
+  line-height: 1.5;
+}
+table, th, td  {
+  font-family:"Comic Sans MS";
+  text-align:center;
+	margin: 25px 200px;
+	border: 1px solid black;
+	width: 900px;
+  font-size: 16px;
+  height: 36px;
+}
+.header {
+	background: #FFBF00;
+	text-shadow: 3px 2px #FF8000;
+}
+.green {
+	background-image: url('/gluster/apifs/home/sakio/images/bien.png');
+ 	background-repeat: no-repeat;
+  	background-position: center;
+	background-size: 30px 30px;
+}
+
+.red {
+        background-image: url('/gluster/apifs/home/sakio/images/error.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30px 30px;
+}
+
+.yellow {
+        background-image: url('/gluster/apifs/home/sakio/images/warn.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30px 30px;
+}
+
+.silver {
+        background-image: url('/gluster/apifs/home/sakio/images/na.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30px 30px;
+}

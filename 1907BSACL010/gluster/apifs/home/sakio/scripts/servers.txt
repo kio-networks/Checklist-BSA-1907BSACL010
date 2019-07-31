@@ -1,0 +1,24 @@
+automation|Temporal01!|ph3pms03|10.60.90.9|ps|servicescheck:MSSQLFDLauncher/Running,MSSQLSERVER/Running,SQLSERVERAGENT/Running,SQLBrowser/Running,SQLWriter/Running
+automation|Temporal01!|ph4pms04|10.60.90.10|ps|servicescheck:MSSQLFDLauncher/Stopped,MSSQLSERVER/Stopped,SQLSERVERAGENT/Stopped,SQLBrowser/Running,SQLWriter/Running
+automation|Temporal01!|vw1pms01|10.60.90.11|ps|relaycheck:172.16.50.27,172.16.50.28;servicescheck:hp_bsm/Running
+automation|Temporal01!|vw1pms02|10.60.90.12|ps|servicescheck:hp_bsm/Running
+automation|Temporal01!|vw1pms03|10.60.90.13|ps|servicescheck:UCMDB_Integration/Stopped,UCMDB_Probe/Running,UCMDB_Probe_DB/Running,UCMDB_Server/Running
+automation|Temporal01!|vw1pms06|10.60.90.16|ps|servicescheck:UCMDB_Probe/Running,UCMDB_Probe_DB/Running,UCMDB_Probe_XmlEnricher/Running
+automation|Temporal01!|vw1pms08|10.60.90.18|ps|servicescheck:hpbpm/Running
+automation|Temporal01!|vw1pms09|10.60.90.19|ps|servicescheck:MySQL/Running,hprumengine/Running
+automation|Temporal01!|vw1pms10|10.60.90.20|ps|servicescheck:HPE Diagnostics Server/Running
+automation|Temporal01!|vw1pms11|10.60.90.21|ps|relaycheck:172.16.50.27,172.16.50.28;servicescheck:HP SiteScope/Running,UCMDB_Probe/Running,UCMDB_Probe_DB/Running
+automation|Temporal01!|vw1pms12|10.60.90.22|ps|relaycheck:172.16.50.27,172.16.50.28;servicescheck:HP SiteScope Failover/Running
+automation|Temporal01!|vw1pms22|10.60.80.16|ps|servicescheck:hpbpm/Running
+automation|Temporal01!|AUTOSIS|10.50.33.161|ps|relaycheck:172.16.23.17,172.16.23.18;servicescheck:SiteScope/Running
+automation|Temporal01!|SIS1|10.50.48.202|ps|relaycheck:172.16.23.17,172.16.23.18;servicescheck:HP SiteScope/Started
+automation|Temporal01!|SIS2|10.50.48.205|ps|relaycheck:172.16.23.17,172.16.23.18;servicescheck:HP SiteScope/Started
+automation|Temporal01!|HPSIS3|10.50.48.239|ps|relaycheck:172.16.23.17,172.16.23.18;servicescheck:HP SiteScope/Started
+automation|Temporal01!|SIS4|10.50.48.240|ps|relaycheck:172.16.23.17,172.16.23.18;servicescheck:SiteScope/Started
+automation|Temporal01!|HPSIS5|10.50.48.250|ps|relaycheck:172.16.23.17,172.16.23.18;servicescheck:HP SiteScope/Started
+automation|Temporal01!|HPSIS6|10.50.48.251|ps|relaycheck:172.16.23.17,172.16.23.18;servicescheck:SiteScope/Running
+automation|Temporal01!|NNM_Core|10.50.48.208|ps|relaycheck:172.16.23.17;servicescheck:HP BTO Software NNM Embedded DB Manager/Running,NNMAction/Running,NNMCluster/Stopped,NNMTrapReceiver/Running,NNMTrapReceiverMD/Running
+automation|Temporal01!|NNM_Metrics|10.50.48.209|ps|relaycheck:172.16.23.17;servicescheck:npsas/Stopped,SYBSQL_ASECONTENTSERVER/Running,SYBBCK_ASECONTENTSERVER_BS/Stopped,NNM iSPI Performance BIServer/Running,SQLANYs_perfspidb/Running,dbproxy/Running,perfspi/Running,perfspiUtility/Stopped
+automation|Temporal01!|BDAPMOMI|10.50.48.194|ps|servicescheck:MSSQLSERVER/Running,SQLSERVERAGENT/Running,SQLBrowser/Stopped,SQLWriter/Running
+automation|Temporal01!|SRVSSATMGDL01|10.50.69.7|ps|relaycheck:10.255.3.155;servicescheck:HP SiteScope/Running
+automation|Temporal01!|SRVNNMATMGDL01|10.50.69.8|ps|servicescheck:HP BTO Software NNM Embedded DB Manager/Running,NNMAction/Running,NNMCluster/Stopped,NNMTrapReceiver/Running,NNMTrapReceiverMD/Running

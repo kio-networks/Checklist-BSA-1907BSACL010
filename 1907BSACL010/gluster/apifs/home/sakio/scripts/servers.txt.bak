@@ -1,0 +1,24 @@
+automation|Temporal01!|10.60.90.9|ps|servicescheck:MSSQLFDLauncher/up,MSSQLSERVER/up,SQLSERVERAGENT/up,SQLBrowser/up,SQLWriter/up
+automation|Temporal01!|10.60.90.10|ps|servicescheck:MSSQLFDLauncher/down,MSSQLSERVER/down,SQLSERVERAGENT/down,SQLBrowser/up,SQLWriter/up
+automation|Temporal01!|10.60.90.11|ps|relaycheck:172.16.50.27,172.16.50.28;servicescheck:hp_bsm/up
+automation|Temporal01!|10.60.90.12|ps|servicescheck:hp_bsm/up
+automation|Temporal01!|10.60.90.13|ps|servicescheck:UCMDB_Integration/down,UCMDB_Probe/up,UCMDB_Probe_DB/up,UCMDB_Server/up
+automation|Temporal01!|10.60.90.16|ps|servicescheck:UCMDB_Probe/up,UCMDB_Probe_DB/up,UCMDB_Probe_XmlEnricher/up
+automation|Temporal01!|10.60.90.18|ps|servicescheck:hpbpm/up
+automation|Temporal01!|10.60.90.19|ps|servicescheck:MySQL/up,hprumengine/up
+automation|Temporal01!|10.60.90.20|ps|servicescheck:HPE Diagnostics Server/up
+automation|Temporal01!|10.60.90.21|ps|relaycheck:172.16.50.27,172.16.50.28;servicescheck:HP SiteScope/up,UCMDB_Probe/up,UCMDB_Probe_DB/up
+automation|Temporal01!|10.60.90.22|ps|relaycheck:172.16.50.27,172.16.50.28;servicescheck:HP SiteScope Failover/up
+automation|Temporal01!|10.60.80.16|ps|servicescheck:hpbpm/up
+automation|Temporal01!|10.50.33.161|ps|relaycheck:172.16.23.17,172.16.23.18;servicescheck:SiteScope/up
+automation|Temporal01!|10.50.48.202|ps|relaycheck:172.16.23.17,172.16.23.18;servicescheck:HP SiteScope/up
+automation|Temporal01!|10.50.48.205|ps|relaycheck:172.16.23.17,172.16.23.18;servicescheck:HP SiteScope/up
+automation|Temporal01!|10.50.48.239|ps|relaycheck:172.16.23.17,172.16.23.18;servicescheck:HP SiteScope/up
+automation|Temporal01!|10.50.48.240|ps|relaycheck:172.16.23.17,172.16.23.18;servicescheck:SiteScope/up
+automation|Temporal01!|10.50.48.250|ps|relaycheck:172.16.23.17,172.16.23.18;servicescheck:HP SiteScope/up
+automation|Temporal01!|10.50.48.251|ps|relaycheck:172.16.23.17,172.16.23.18;servicescheck:SiteScope/up
+automation|Temporal01!|10.50.48.208|ps|relaycheck:172.16.23.17;servicescheck:HP BTO Software NNM Embedded DB Manager/up,NNMAction/up,NNMCluster/down,NNMTrapReceiver/up,NNMTrapReceiverMD/up
+automation|Temporal01!|10.50.48.209|ps|relaycheck:172.16.23.17;servicescheck:npsas/down,SYBSQL_ASECONTENTSERVER/up,SYBBCK_ASECONTENTSERVER_BS/down,NNM iSPI Performance BIServer/up,SQLANYs_perfspidb/up,dbproxy/up,perfspi/up,perfspiUtility/down
+automation|Temporal01!|10.50.48.194|ps|servicescheck:MSSQLSERVER/up,SQLSERVERAGENT/up,SQLBrowser/down,SQLWriter/up
+automation|Temporal01!|10.50.69.7|ps|relaycheck:10.255.3.155;servicescheck:HP SiteScope/up
+automation|Temporal01!|10.50.69.8|ps|servicescheck:HP BTO Software NNM Embedded DB Manager/up,NNMAction/up,NNMCluster/down,NNMTrapReceiver/up,NNMTrapReceiverMD/up
